@@ -17,7 +17,7 @@ Then in your markdown/asciidoc content, highlight some text using:
 ```md
 This text is {% em %}highlighted !{% endem %}
 
-This text is {% em type="blue" %}highlighted in blue!{% endem %}
+This text is {% em type="green" %}highlighted in green!{% endem %}
 
 This text is {% em type="red" %}highlighted in red!{% endem %}
 
