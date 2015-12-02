@@ -17,9 +17,14 @@ module.exports = {
                     style = 'background: '+color+';';
                 }
 
-                return ('<span class="pg-emphasize pg-emphasize-'+type+'" style="'+style+'">'
+                var body = ('<span class="pg-emphasize pg-emphasize-'+type+'" style="'+style+'">'
                     + (block.body)
                     + '</span>');
+
+                return {
+                    body: body,
+                    parse: true
+                };
             }
         }
     }
