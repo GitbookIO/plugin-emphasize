@@ -2,7 +2,7 @@
     "name": "gitbook-plugin-emphasize",
     "description": "Emphasize and highlight specific content",
     "main": "index.js",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "engines": {
         "gitbook": ">=2.6.3"
     },
